@@ -1,0 +1,222 @@
+
+main {
+    margin-top: 20vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container img {
+    border-radius: 48%;
+    height: 30vh;
+
+}
+
+.container p {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 50vw;
+
+}
+
+@media screen and (max-width:992px) {}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    width: 45vw;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.skill {
+    width: 45vw;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+.skillbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillbar p {
+    width: 30%;
+}
+
+.progress {
+    width: 70%;
+}
+
+@media screen and (max-width: 640px) {
+    .description {
+        width: 80vw;
+    }
+
+    .skill {
+        width: 80vw;
+    }
+
+    .skillbar {
+        width: 80vw;
+    }
+
+    .skillbar p {
+        width: 30%;
+    }
+
+    .progress {
+        width: 70%;
+    }
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardx {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.projectcard {
+    width: 25vw;
+}
+
+.projectimg {
+    height: 100%;
+}
+
+@media screen and (max-width:990px) {
+    .projectcard {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .projectcard {
+        width: 90vw;
+    }
+
+    .content1 {
+        margin-top: 100
+    }
+}
+
+
+footer img {
+    margin: 10px;
+}
+
+.social {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+}
+
+.end {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(23, 23, 23);
+    text-align: center;
+    align-items: center;
+}
+
+.end h4 {
+    color: white;
+
+}
+
+.end p {
+    margin: 0;
+    padding: 20px;
+    color: rgb(152, 148, 148);
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#myVideo {
+    min-width: 100%;
+    min-height: 60%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Add some content at the bottom of the video/page */
+.content1 {
+    display: flex;
+   
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content1 div {
+    margin-top: 300px;
+    width: 800px;
+    height: 500px;
+}
+
+.name {
+    color: transparent;
+    font-size: 70px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
+
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #myVideo {
+        width: auto;
+        height: 70%;
+    }
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contactme{
+    border: 2px solid rgb(142, 151, 233);
+    border-radius: 10px;
+    width: 10vw;
+    text-align: center;
+}
